@@ -9,7 +9,7 @@ Para obtener los datos de calibración de alguna cámara se tiene que instalar e
 ```
 sudo apt-get install ros-jazzy-image-pipeline
 ```
-Al igual que asegurarse que se tengan instaladas las dependencias del paquete al ejecutar la siguientes líneas de código desde la raíz del paquete:
+Al igual que asegurarse que se tengan instaladas las dependencias del paquete al ejecutar la siguientes líneas de código desde la raíz del workspace:
 
 ```
 sudo apt update
