@@ -137,7 +137,7 @@ bool Capture::capture()
       info_.height = bridge_.image.rows;
       info_.width = bridge_.image.cols;
     }
-    else if (info_.height != bridge_.image.rows || info_.width != bridge_.image.cols)
+    else if ((info_.height != (unsigned)bridge_.image.rows)|| (info_.width != (unsigned)bridge_.image.cols))
     {
       if (rescale_camera_info_)
       {
